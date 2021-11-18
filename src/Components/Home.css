@@ -1,0 +1,44 @@
+
+
+button {
+    padding: 8px;
+    margin: 8px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container div{
+    margin: auto;
+}
+.error{
+    font-size: .9rem;
+    color: red;
+}
+
+.persContainer{
+    max-width: 300px;
+}
+.detailsCont{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+
+.persContainer .detailsCont .labelsdiv{
+    line-height: 26px;
+}
+.persContainer .detailsCont .inputsdiv input{
+    margin: 2px 0;
+}
+
+.butCont {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
